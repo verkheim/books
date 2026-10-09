@@ -70,6 +70,30 @@ Status: Currently listening | Format: Audiobook
 
 Status reported: Oct 9, 2026 (America/New_York)
 
+**Connor**
+
+Getting accepted into the same post-grad university as my girlfriend seemed like a solid reason to stay together. Now that I'm in San Diego, living with Thalia's family, all I want to do is go back to Sacramento. Back to my family, my friends, and the sport I love like crazy.
+
+When I stumble upon a pickup soccer match on the beach, it stirs something in me. My eyes, and my camera, obsess over the dark-eyed forward with a body straight out of a fashion magazine.
+
+Dane Calvo… tall, untamed, and unabashedly gay. He hits on me, and I reject him. Then I find out he's Thalia's younger brother—the one who sleeps in the bedroom next to ours. Maybe it's a bad idea trying to be friends with a guy who is clearly into me, but I'm straight. At least, I think I am.
+
+**Dane**
+
+The only thing worse than my sister moving in is that she brought her stupid boyfriend with her. Now I've got both of their crap taking up valuable counter space in my bathroom, and my dad is making me eat dinner with the family.
+
+When I discover Thalia's boyfriend is the same drop-dead cutie who was taking stalker-pics of me at the beach, I know I can have fun with it. The problem is, he knows I'm gay and my family doesn't. Even worse, he wants to be friends—wants to train me even—but the more time we spend together, the more I want him all to myself.
+
+He keeps saying he's straight, but I have my doubts. But even if he's not, how could someone as good as Connor Whitlock ever want a train wreck like me?
+
+Salt *is a spicy sports romance that deals with themes related to identity, infidelity, mental health, and family trauma.*
+
+*Contains mature content. A complete list of content warnings can be found on the author's website.*
+
+©2026 Jonah Yorke (P)2026 Podium Audio
+
+
+
 [Listen on Audible](https://www.audible.com/pd/Salt-Audiobook/B0GZHTM74T)
 
 ## Books Read (163)
