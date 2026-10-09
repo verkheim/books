@@ -1,0 +1,9 @@
+{
+  "name": "dsnyder-books",
+  "compatibility_date": "2026-08-12",
+  "workers_dev": false,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist"
+  }
+}

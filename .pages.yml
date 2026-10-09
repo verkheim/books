@@ -1,11 +1,66 @@
-media: media
 content:
-  - name: pages
-    label: Pages
-    type: collection
-    path: docs
+  - name: books
+    label: Books
+    type: file
+    path: books.json
+    format: json
     fields:
       - name: title
+        label: Page title
         type: string
-      - name: body
+      - name: updated
+        label: Last updated
+        type: string
+      - name: introduction
+        label: Introduction and rating guide
         type: rich-text
+        options:
+          format: html
+          media: false
+      - name: statistics
+        label: Statistics
+        type: object
+        list: true
+        fields:
+          - {name: label, type: string}
+          - {name: value, type: string}
+      - name: sections
+        label: Reading list sections
+        type: object
+        list: true
+        fields:
+          - {name: id, type: string, readonly: true}
+          - {name: label, type: string}
+          - name: books
+            label: Books
+            type: object
+            list: true
+            fields:
+              - {name: id, type: string, readonly: true}
+              - {name: title, label: Title, type: string}
+              - name: metadata
+                label: Author, narrator, series and edition
+                type: rich-text
+                options: {format: html, media: false}
+              - name: details
+                label: Status, rating and dates
+                type: object
+                list: true
+                fields:
+                  - name: kind
+                    type: select
+                    options: {values: [meta, rating, date]}
+                  - name: content
+                    type: rich-text
+                    options: {format: html, media: false}
+              - {name: summary, label: Summary, type: text}
+              - name: notes
+                label: My notes
+                type: rich-text
+                options: {format: html, media: false}
+              - name: links
+                type: object
+                list: true
+                fields:
+                  - {name: label, type: string}
+                  - {name: url, type: string}
