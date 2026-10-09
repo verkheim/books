@@ -5,36 +5,33 @@ content:
     path: books.json
     format: json
     fields:
-      - name: title
-        label: Page title
-        type: string
-      - name: updated
-        label: Last updated
-        type: string
+      - {name: title, label: Page title, type: string}
+      - {name: updated, label: Last updated, type: string}
       - name: introduction
         label: Introduction and rating guide
         type: rich-text
-        options:
-          format: html
-          media: false
+        options: {format: html, media: false}
       - name: statistics
         label: Statistics
         type: object
-        list: true
+        list:
+          collapsible: {collapsed: true, summary: "{label}"}
         fields:
           - {name: label, type: string}
           - {name: value, type: string}
       - name: sections
         label: Reading list sections
         type: object
-        list: true
+        list:
+          collapsible: {collapsed: true, summary: "{label}"}
         fields:
           - {name: id, type: string, readonly: true}
           - {name: label, type: string}
           - name: books
             label: Books
             type: object
-            list: true
+            list:
+              collapsible: {collapsed: true, summary: "{title}"}
             fields:
               - {name: id, type: string, readonly: true}
               - {name: title, label: Title, type: string}
