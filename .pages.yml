@@ -9,8 +9,8 @@ content:
       - {name: updated, label: Last updated, type: string}
       - name: introduction
         label: Introduction and rating guide
-        type: rich-text
-        options: {format: html, media: false}
+        type: text
+        description: Plain text and existing HTML are preserved. Keep formatting tags when editing.
       - name: statistics
         label: Statistics
         type: object
@@ -37,8 +37,8 @@ content:
               - {name: title, label: Title, type: string}
               - name: metadata
                 label: Author, narrator, series and edition
-                type: rich-text
-                options: {format: html, media: false}
+                type: text
+                description: Plain text or existing HTML; keep tags to preserve formatting.
               - name: details
                 label: Status, rating and dates
                 type: object
@@ -48,13 +48,13 @@ content:
                     type: select
                     options: {values: [meta, rating, date]}
                   - name: content
-                    type: rich-text
-                    options: {format: html, media: false}
+                    type: text
+                    description: Plain text or existing HTML; keep tags to preserve formatting.
               - {name: summary, label: Summary, type: text}
               - name: notes
                 label: My notes
-                type: rich-text
-                options: {format: html, media: false}
+                type: text
+                description: Plain text or existing HTML; keep tags to preserve formatting.
               - name: links
                 type: object
                 list: true
