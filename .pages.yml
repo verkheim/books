@@ -3,7 +3,7 @@ content:
     label: Reading list
     type: file
     path: books.md
-    format: yaml-frontmatter
+    format: raw
     fields:
       - name: body
         label: Reading list
