@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import MarkdownIt from 'markdown-it';
-const source = fs.readFileSync(new URL('books.md', import.meta.url), 'utf8').replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
+const source = fs.readFileSync(new URL('books.md', import.meta.url), 'utf8').replace(/^---\r?\n(?:[\s\S]*?\r?\n)?---\r?\n/, '');
 const md = new MarkdownIt({html:false, breaks:true, linkify:false});
 const body = md.render(source);
 const page = `<!doctype html>
