@@ -26,7 +26,7 @@ def render(data):
         raise ValueError('Keep the six established sections in their original order')
     for sec in data['sections']:
         cards=[]
-        for b in sec['books']:
+        for b in sec.get('books', []):
             bid=b.get('id','')
             if bid:
                 if bid in seen: raise ValueError('Duplicate book ID')
