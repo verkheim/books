@@ -2,7 +2,7 @@
 
 Last updated: October 9, 2026 (America/New_York)
 
-This is a public, structured snapshot of what I have been reading and listening to make accessible to AI. Reload verification.
+This is a public, structured snapshot of what I have been reading and listening to make accessible to AI.
 
 ## How I rate books
 
